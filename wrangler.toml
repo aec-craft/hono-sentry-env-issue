@@ -1,0 +1,6 @@
+name = "hono-sentry-env-issue"
+main = "src/index.ts"
+compatibility_date = "2025-05-21"
+
+[vars]
+MY_VAR = "working"

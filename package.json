@@ -1,0 +1,22 @@
+{
+  "name": "hono-sentry-env-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zuraiz <59668507+Zura1z@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@sentry/cloudflare": "^9.22.0",
+    "hono": "^4.7.10"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250521.0",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.16.0"
+  }
+}
